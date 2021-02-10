@@ -6,7 +6,8 @@
   "scripts": {
     "prestart": "echo 'Crash course fp-ts ... Option,Either,Task and TaskEither'",
     "start": "ts-node src/index.ts",
-    "misc": "ts-node src/misc.ts"
+    "misc": "ts-node src/misc.ts",
+    "codec": "ts-node src/codec.ts"
   },
   "dependencies": {
     "@types/node": "12.12.11",

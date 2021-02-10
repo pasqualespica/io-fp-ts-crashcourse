@@ -36,7 +36,5 @@ const teFolded = teSuccess.fold(
 // simile a fold, ma utile per prendere valori di default
 const email2 = user2.email.getOrElse("default@gmail.com");
 const value = errorOrValid1.getOrElseL((msg) => {
-  console.log(`>>>>>>>>>>>>>>>>>>>>>>>>> ${msg}`);
   throw new Error(msg);
-  console.log("--------222222");
 });
